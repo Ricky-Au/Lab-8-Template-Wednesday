@@ -97,7 +97,7 @@ class CityListTest {
     @Test
     void testClearAllCities(){
         CityList cityList = mockCityList();
-//        cityList.removeAll();
+        cityList.removeAll();
         assertEquals(0, cityList.countCities());
     }
 }
